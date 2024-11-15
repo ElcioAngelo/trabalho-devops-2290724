@@ -1,8 +1,8 @@
 pipeline {
     agent any
-	enviroment {
-	COMPOSE_FILE = 'docker-compose.yml'
-	} 
+    enviroment {
+    COMPOSE_FILE = 'docker-compose.yml'
+    } 
     stages {
         stage('Build') { 
             steps {
